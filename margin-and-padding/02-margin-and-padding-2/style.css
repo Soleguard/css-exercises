@@ -1,3 +1,32 @@
+/*
+
+Card Edges
+8px Space
+Content (Blue Sections)
+
+Blue Section
+8px Space
+Blue Section
+
+Title Text (16px)
+8px Space
+Title Edges (Blue Section)
+
+Content Top-Bottom (16px Space)
+Content Left-Right (8px Space)
+
+.button-container
+* Centered
+* 8x Padding
+
+Big Button
+* Separate line
+* Centered
+* Left-Right (24px)
+* Top-Bottom (8px)
+
+*/
+
 body {
   background: #eee;
   font-family: sans-serif;
