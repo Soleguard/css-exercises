@@ -46,15 +46,19 @@ button {
   border: 1px solid #eee;
 }
 
-/* SOLUTION */
 
-/* disclaimer: duplicating the selectors here isn't best practice.
+/*
+
+SOLUTION
+
+disclaimer: duplicating the selectors here isn't best practice.
 In your solution you probably put it right inside the existing selectors,
 which _is_ the best practice.
 
 We separated it out here to make it extra clear what has changed. */
 
 .card {
+  /* Add 8px padding to card element(s) */
   padding: 8px;
 }
 
