@@ -28,35 +28,87 @@ button {
 
 /* SOLUTION */
 
-/* disclaimer: duplicating the selectors here isn't best practice.
-In your solution you probably put it right inside the existing selectors,
-which _is_ the best practice.
-
-We separated it out here to make it extra clear what has changed. */
-
 .card {
-  padding: 8px;
+  padding: 8px; 
+  /*
+  Input: Set 8px padding to all card elements
+  Output: Box Edges (Top/Bottom, Left/Right)-Expands to 8px
+  */
 }
 
 .title {
   margin-top: 0;
+  /*
+  Input: Set 0 margin-top; cancel top spacing for title
+  Output: Title Top Edge-No spacing
+  */
+
   margin-bottom: 8px;
+  /*
+  Input: Set 8px margin-bottom; cancel bottom spacing for title
+  Output: Title Bottom Edge-No spacing
+  */
+  
   font-size: 16px;
+  /*
+  Input: Set font size to 16px
+  Output: Title Font-Size: Normal size
+  */
+
   padding: 8px;
+  /*
+  Input: Set padding to 8px
+  Output: Bottom, Left-Right Edges- Expands 8px; margin-top ignored
+  */
 }
 
 .content {
   margin-bottom: 8px;
+  /*
+  Input: Set 8px margin-bottom; add bottom spacing
+  Output: Bottom Edge- Expands 8px
+  */
+
   padding: 16px 8px;
+  /*
+  Input: Set 16px (top-bottom) and 8px (left-right) padding
+  Output:
+    * Top-Bottom Edges- Expands 16px
+    * Left-Right Edges- Expands 8px
+  */
 }
 
 .button-container {
   text-align: center;
+  /*
+  Input: Set text-align to "center"
+  Output: Button Container and Subelements- Centered
+  */
+
   padding: 8px;
+  /*
+  Input: Set 8px padding to top-bottom edges
+  Output: Button Container and Subelements (Top-Bottom)- Expands 8px
+  */
 }
 
 button {
   display: block;
+  /*
+  Input: Set display as "block"
+  Output: Button- Adds newline; reset alignment
+  */
+
   margin: 0 auto;
+  /*
+  Input: Set 0 (top-bottom) and auto (left-right) margin; auto (left-right) = Horizontal centering
+  Output: Button- Center-aligns
+  */
+  
   padding: 8px 24px;
+
+  /*
+  Input: Set 8px padding (top-bottom) and 24px padding (left-right)
+  Output: Button- Expands padding vertically (8px) and horizontally (24px)
+  */
 }
