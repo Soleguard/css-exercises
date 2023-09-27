@@ -1,8 +1,8 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
-  padding: 8px; /* Add 8px padding (edges) of header content */
-  display: flex; /* ? */
+  padding: 8px; /* Header: Add 8px padding (to edges) */
+  display: flex; /* Header: Align child items horizontally */
 }
 
 .logo {
