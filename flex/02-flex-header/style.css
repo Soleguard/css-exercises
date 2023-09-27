@@ -4,7 +4,7 @@
   padding: 8px; /* Header: Add 8px padding (to edges) */
   display: flex; /* Header: Align child items horizontally */
   align-items: center; /* Header: Center child items vertically (logo centered; padding auto-resized) */
-  justify-content: space-between; /* */
+  justify-content: space-between; /* ? */
 }
 
 .logo {
