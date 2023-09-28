@@ -15,10 +15,14 @@
   padding: 4px 32px;
 }
 
+/* ul (Links) */
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  display: flex; /* ul (Links): Align children horizontally (padding auto-resized) */
+  display: flex; /* Align children horizontally (padding auto-resized) */
+  margin: 0; /* Set no extra margins */
+  padding: 0; /* Set no extra padding */
+  gap: 8px; /* Set 8px gap between each child */
 }
 
 a {
