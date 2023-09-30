@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex; /* Wraps each container (ex. left children, right children) horizontally */
+  justify-content: space-between; /* Adds space between children (ex. left = start-line; right = end-line) */
+  padding: 8px; /* Adds padding (8px) to children (ex. left, right) */
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -45,4 +48,14 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex; /* Wraps each ul child horizontally */
+  margin: 0; /* Cuts excess margins in ul children */
+  padding: 0; /* Cuts excess padding in ul children */
+  gap: 16px; /* Adds gap (8px) between each ul child */
+}
+
+.left, .right {
+  display: flex; /* Wraps each .left and .right child horizontally */
+  align-items: center; /* Centers children (by left/right container) vertically (cross-axis); automatically resizes padding */
+  gap: 16px; /* Adds gap (16px) between each left/right container child */
 }
