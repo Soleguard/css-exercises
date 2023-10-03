@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex; /* Sets children horizontally */
+  flex-direction: column; /* Redistributes children columnarly */
 }
 
 img {
@@ -16,6 +18,16 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px; /* Adds padding to button elements */
+}
+
+.content {
+  flex: 1; /* Resizes width of other elements; 'content' elements absorbs all extra space; pushes 'footer' to bottom of page */
+  display: flex; /* Enables flexibility; sets children horizontally; stretches image */
+  align-items: center; /* Centers children vertically */
+  justify-content: center; /* Centers children horizontally */
+  flex-direction: column; /* Redistributes children columnarly */
+  gap: 16px; /* Adds gap (16px) to each child */
 }
 
 input {
